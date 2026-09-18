@@ -15,6 +15,7 @@ winget install alacritty --scope machine
 ```
 
 ## 3. Launcher: Flow Launcher
+- remap hotkey to `Ctrl + Space`
 ```pwsh
 winget install "Flow Launcher" --scope machine
 ```
@@ -22,6 +23,7 @@ winget install "Flow Launcher" --scope machine
 ## 4. Editor: Neovim
 ```pwsh
 winget install neovim --scope machine
+git clone https://github.com/pedestrianlove/nvim ~/.config/nvim
 ```
 
 ## 5. Browser: Zen Browser...? (TBD)
