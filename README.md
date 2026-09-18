@@ -9,7 +9,7 @@ winget install GlazeWM --scope machine
 
 ## 2. Terminal: Alacritty
 ```pwsh
-winget install --id DEVCOM.JetBrainsMonoNerdFont
+winget install --id DEVCOM.JetBrainsMonoNerdFont --scope machine
 winget install nushell --scope machine
 winget install alacritty --scope machine
 ```
