@@ -4,15 +4,24 @@
 
 ## 1. WM: GlazeWM
 ```pwsh
-winget install GlazeWM
+winget install GlazeWM --scope machine
 ```
 
 ## 2. Terminal: Alacritty
 ```pwsh
-winget install alacritty
+winget install --id DEVCOM.JetBrainsMonoNerdFont
+winget install nushell --scope machine
+winget install alacritty --scope machine
 ```
 
 ## 3. Launcher: Flow Launcher
 ```pwsh
-winget install "Flow Launcher"
+winget install "Flow Launcher" --scope machine
 ```
+
+## 4. Editor: Neovim
+```pwsh
+winget install neovim --scope machine
+```
+
+## 5. Browser: Zen Browser...? (TBD)
